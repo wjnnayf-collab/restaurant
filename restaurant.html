@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Restaurant Menu</title>
+    </head>
+    <body>
+        <header>
+            <h1>Wajn Restaurant</h1>
+            <nav>
+                <a href="#menu">Menu</Menu></a> |
+                <a href="#media">Media</a> |
+                <a href="#order">Order</a>
+            </nav>
+        </header>
+        <hr>
+        <!--MENU-->
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <table border="1">
+                <tr>
+                    <th>Dish</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                     <td>Pizza</td>
+                     <td>Cheesy pizza</td>
+                     <td>30 SAR</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <!--MEDIA-->
+        <section id="media">
+            <h2>Our Food</h2>
+                <img src="https://via.placeholder.com/300" alt="Food Image">
+        </section>
+        <hr>
+        <!--ORDER FORM-->
+        <section id="order">
+            <h2>Order Now</h2>
+            <form>
+                <label>Name:</label><br>
+                <input type="text" required><br><br>
+                <label>Email:</label><br>
+                <input type="email" required><br><br>
+                <label>Select Dish:</label><br>
+        <select>
+            <option>Chicken Burger</option>
+            <option>Pizza</option>
+            <option>Pasta</option>
+        </select><br><br>
+        <label>Quantity:</label><br>
+        <input type="number" min="1" max="10"><br><br>
+            <label>Notes:</label><br>
+        <textarea></textarea><br><br>
+        <input type="submit" value="Order">
+            </form>
+        </section>
+        <hr>
+        <footer>
+            <p>© 2026 Wajn Restaurant</p>
+        </footer>
+    </body>
+</html>
