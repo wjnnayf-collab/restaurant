@@ -1,0 +1,105 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header + صورة خلفية */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                      url("photo_6028518699599334627_x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* العنوان */
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* روابط */
+nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* عنوان القسم */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* جدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Media Section (صورة خلفية ثانية) */
+#media {
+    background-image: url("photo_6028518699599334628_x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+}
+
+/* Form */
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Button */
+input[type="submit"] {
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffaa00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+}
